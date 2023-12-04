@@ -12,6 +12,9 @@ const gameBoard = document.getElementById('game-board');
 let selectedCards = [];
 
 document.addEventListener('DOMContentLoaded', function(){
+
+  
+  
     var debutPartie, finPartie;
     var interactionAutorisee = true;
     var tempsEcouleElement = document.getElementById('tempsEcoule');
@@ -86,8 +89,8 @@ document.addEventListener('DOMContentLoaded', function(){
       debutPartie = new Date();
       interactionAutorisee = true;
       tempsEcouleElement.textContent = "Temps écoulé: 0 secondes";
-  
-    
+
+
       gameBoard.innerHTML = '';
   
       let allCards = duplicateArray(cards);
@@ -124,5 +127,12 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   
 
-    nouvellePartie();
+ var btnRecommencer = document.getElementById('btnRecommencer');
+
+  if (btnRecommencer) {
+    btnRecommencer.addEventListener('click', function() {
+      nouvellePartie();
+    });
+  }
+
   });
