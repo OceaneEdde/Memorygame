@@ -60,20 +60,7 @@ body{
   }
 
   #recommencerBtn:hover {
-    background-color: #2d1e3a;
+    background-color: #5645a0;
   }
 
-  @media (max-width: 600px) {
-    .card {
-      width: 80px;
-      height: 80px;
-    }
-  }
   
-  /* Styles pour les écrans de taille moyenne (par exemple, tablettes) */
-  @media (min-width: 601px) and (max-width: 1024px) {
-    .card {
-      width: 100px;
-      height: 100px;
-    }
-  }
