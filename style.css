@@ -3,6 +3,7 @@ body{
     text-align: center;
     background-color: rgb(129, 82, 131);
     color: aliceblue;
+    text-shadow: #2e1414 1px 2px;
 }
 
 #game-board{
@@ -16,6 +17,7 @@ body{
 
 .card{
     background-color: #c09898;
+    box-shadow: #2e1414 1px 2px 3px;
     border-radius: 5px;
     cursor: pointer;
     transform: rotateY('0deg');
@@ -32,7 +34,7 @@ body{
 }
 
 .card.matched{
-    border: solid 4px rgb(0, 255, 0);
+    border: solid 4px rgb(80, 126, 80);
     box-sizing: border-box;
     cursor: default;
 }
