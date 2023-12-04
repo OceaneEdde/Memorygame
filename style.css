@@ -47,3 +47,18 @@ body{
 .card.flip{
     transform: rotateY('180deg');
 }
+
+#recommencerBtn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #812069; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+
+  #recommencerBtn:hover {
+    background-color: #45a049;
+  }
